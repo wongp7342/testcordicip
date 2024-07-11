@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../testcordicip.gen/sources_1/ip/divider/sim/divider.v" \
+"../../../../testcordicip.gen/sources_1/ip/subtractor/sim/subtractor.v" \
+"../../../../testcordicip.gen/sources_1/ip/multiplier/sim/multiplier.v" \
+"../../../../testcordicip.srcs/sources_1/new/cos.v" \
+
+sv xil_defaultlib  \
+"../../../../testcordicip.srcs/sim_1/new/cos_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

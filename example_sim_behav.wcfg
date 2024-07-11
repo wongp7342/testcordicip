@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="example_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="example_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="602.340 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,243.341 ns"></ZoomEndTime>
+      <Cursor1Time time="2,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="198"></NameColumnWidth>
+      <ValueColumnWidth column_width="185"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="80" />
+   <wvobject type="logic" fp_name="/example_sim/cosdut/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/cosdut/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/z0">
+      <obj_property name="ElementShortName">z0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">z0[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/cosdut/valid">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/out_x">
+      <obj_property name="ElementShortName">out_x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_x[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/out_y">
+      <obj_property name="ElementShortName">out_y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_y[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/cosdut/outvalid">
+      <obj_property name="ElementShortName">outvalid</obj_property>
+      <obj_property name="ObjectShortName">outvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/PI_DIV_TWO">
+      <obj_property name="ElementShortName">PI_DIV_TWO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PI_DIV_TWO[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/TWO_PI">
+      <obj_property name="ElementShortName">TWO_PI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TWO_PI[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/PI">
+      <obj_property name="ElementShortName">PI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PI[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/THREE_PI_DIV_TWO">
+      <obj_property name="ElementShortName">THREE_PI_DIV_TWO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">THREE_PI_DIV_TWO[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/out">
+      <obj_property name="ElementShortName">out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/fixedin">
+      <obj_property name="ElementShortName">fixedin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fixedin[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/fixed_out_x">
+      <obj_property name="ElementShortName">fixed_out_x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fixed_out_x[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/fixed_out_y">
+      <obj_property name="ElementShortName">fixed_out_y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fixed_out_y[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/reducer_out">
+      <obj_property name="ElementShortName">reducer_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reducer_out[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/theta">
+      <obj_property name="ElementShortName">theta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">theta[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/cordicin">
+      <obj_property name="ElementShortName">cordicin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cordicin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/sub1out">
+      <obj_property name="ElementShortName">sub1out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub1out[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/sub2out">
+      <obj_property name="ElementShortName">sub2out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub2out[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/sub3out">
+      <obj_property name="ElementShortName">sub3out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub3out[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/floatin">
+      <obj_property name="ElementShortName">floatin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">floatin[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/clockcount_">
+      <obj_property name="ElementShortName">clockcount_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clockcount_[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/clock_">
+      <obj_property name="ElementShortName">clock_</obj_property>
+      <obj_property name="ObjectShortName">clock_</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/reset_">
+      <obj_property name="ElementShortName">reset_</obj_property>
+      <obj_property name="ObjectShortName">reset_</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/valid_">
+      <obj_property name="ElementShortName">valid_</obj_property>
+      <obj_property name="ObjectShortName">valid_</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/outvalid_">
+      <obj_property name="ElementShortName">outvalid_</obj_property>
+      <obj_property name="ObjectShortName">outvalid_</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosout_">
+      <obj_property name="ElementShortName">cosout_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cosout_[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/sinout_">
+      <obj_property name="ElementShortName">sinout_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sinout_[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/x0_">
+      <obj_property name="ElementShortName">x0_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x0_[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/y0_">
+      <obj_property name="ElementShortName">y0_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y0_[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/z0_">
+      <obj_property name="ElementShortName">z0_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">z0_[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/testinputs_">
+      <obj_property name="ElementShortName">testinputs_[64:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">testinputs_[64:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/outx_">
+      <obj_property name="ElementShortName">outx_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outx_[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/outy_">
+      <obj_property name="ElementShortName">outy_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">outy_[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/idx_">
+      <obj_property name="ElementShortName">idx_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idx_[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cyclecount_">
+      <obj_property name="ElementShortName">cyclecount_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cyclecount_[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/delay_">
+      <obj_property name="ElementShortName">delay_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/example_sim/testfloat_">
+      <obj_property name="ElementShortName">testfloat_</obj_property>
+      <obj_property name="ObjectShortName">testfloat_</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/example_sim/testin_">
+      <obj_property name="ElementShortName">testin_</obj_property>
+      <obj_property name="ObjectShortName">testin_</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/example_sim/actualsin_">
+      <obj_property name="ElementShortName">actualsin_</obj_property>
+      <obj_property name="ObjectShortName">actualsin_</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/example_sim/expectedsin_">
+      <obj_property name="ElementShortName">expectedsin_</obj_property>
+      <obj_property name="ObjectShortName">expectedsin_</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/example_sim/errorsin_">
+      <obj_property name="ElementShortName">errorsin_</obj_property>
+      <obj_property name="ObjectShortName">errorsin_</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/example_sim/actualcos_">
+      <obj_property name="ElementShortName">actualcos_</obj_property>
+      <obj_property name="ObjectShortName">actualcos_</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/example_sim/expectedcos_">
+      <obj_property name="ElementShortName">expectedcos_</obj_property>
+      <obj_property name="ObjectShortName">expectedcos_</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/example_sim/errorcos_">
+      <obj_property name="ElementShortName">errorcos_</obj_property>
+      <obj_property name="ObjectShortName">errorcos_</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/TWO_PI">
+      <obj_property name="ElementShortName">TWO_PI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TWO_PI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/a_ready">
+      <obj_property name="ElementShortName">a_ready</obj_property>
+      <obj_property name="ObjectShortName">a_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/b_ready">
+      <obj_property name="ElementShortName">b_ready</obj_property>
+      <obj_property name="ObjectShortName">b_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/a_valid">
+      <obj_property name="ElementShortName">a_valid</obj_property>
+      <obj_property name="ObjectShortName">a_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/b_valid">
+      <obj_property name="ElementShortName">b_valid</obj_property>
+      <obj_property name="ObjectShortName">b_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/div_out">
+      <obj_property name="ElementShortName">div_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">div_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/div_out_reg">
+      <obj_property name="ElementShortName">div_out_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">div_out_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/div_ready">
+      <obj_property name="ElementShortName">div_ready</obj_property>
+      <obj_property name="ObjectShortName">div_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/div_valid">
+      <obj_property name="ElementShortName">div_valid</obj_property>
+      <obj_property name="ObjectShortName">div_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/TEST_SIZE">
+      <obj_property name="ElementShortName">TEST_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TEST_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/cosdut/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/cosdut/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/z0">
+      <obj_property name="ElementShortName">z0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">z0[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/cosdut/valid">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/out_x">
+      <obj_property name="ElementShortName">out_x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_x[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/out_y">
+      <obj_property name="ElementShortName">out_y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_y[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/example_sim/cosdut/outvalid">
+      <obj_property name="ElementShortName">outvalid</obj_property>
+      <obj_property name="ObjectShortName">outvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/PI_DIV_TWO">
+      <obj_property name="ElementShortName">PI_DIV_TWO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PI_DIV_TWO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/TWO_PI">
+      <obj_property name="ElementShortName">TWO_PI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TWO_PI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/PI">
+      <obj_property name="ElementShortName">PI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PI[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/THREE_PI_DIV_TWO">
+      <obj_property name="ElementShortName">THREE_PI_DIV_TWO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">THREE_PI_DIV_TWO[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/out">
+      <obj_property name="ElementShortName">out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/fixedin">
+      <obj_property name="ElementShortName">fixedin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fixedin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/fixed_out_x">
+      <obj_property name="ElementShortName">fixed_out_x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fixed_out_x[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/fixed_out_y">
+      <obj_property name="ElementShortName">fixed_out_y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fixed_out_y[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/reducer_out">
+      <obj_property name="ElementShortName">reducer_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reducer_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/theta">
+      <obj_property name="ElementShortName">theta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">theta[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/cordicin">
+      <obj_property name="ElementShortName">cordicin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cordicin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/sub1out">
+      <obj_property name="ElementShortName">sub1out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub1out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/sub2out">
+      <obj_property name="ElementShortName">sub2out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub2out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/sub3out">
+      <obj_property name="ElementShortName">sub3out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sub3out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/floatin">
+      <obj_property name="ElementShortName">floatin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">floatin[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/mode">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/example_sim/cosdut/modeout">
+      <obj_property name="ElementShortName">modeout[1:0]</obj_property>
+      <obj_property name="ObjectShortName">modeout[1:0]</obj_property>
+   </wvobject>
+</wave_config>

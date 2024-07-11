@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"example_sim_func_synth.v" \
+
+sv xil_defaultlib  \
+"../../../../../testcordicip.srcs/sim_1/new/cos_tb.v" \
+
+# Do not sort compile order
+nosort
